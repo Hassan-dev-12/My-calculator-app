@@ -1,0 +1,35 @@
+body {
+  background: #eef2f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.calculator-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+  width: 320px;
+}
+#result {
+  height: 55px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+.btn {
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.btn-equal {
+  grid-row: span 2;
+  height: 112px;
+}
